@@ -8,7 +8,8 @@
     "scheme": "madad",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "bundleIdentifier": "com.siddhantekale.madad",
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
@@ -34,7 +35,9 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "expo-secure-store",
+      "expo-sqlite"
     ],
     "experiments": {
       "typedRoutes": true,
