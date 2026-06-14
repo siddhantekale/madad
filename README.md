@@ -1,5 +1,7 @@
 # Madad
 
+## Planned — Agents, Knowledge Store & Documents (design, not yet built) -> needs to be implemented still
+
 Personal ChatGPT/Claude-style mobile chat app with an on-device, embedding-backed
 knowledge store. Expo SDK 54 · React Native 0.81 · TypeScript · expo-router.
 
@@ -79,3 +81,4 @@ TBD.
 npx tsc --noEmit         # typecheck
 npx expo export -p ios   # validate the JS bundle / module graph
 ```
+
